@@ -136,7 +136,7 @@ Shopify.prototype.request = function request(url, method, key, params) {
 //
 // Require and instantiate the resources lazily.
 //
-const allResourceFiles = [ 
+[ 
   'access-scope.js',
   'api-permission.js',
   'application-charge.js',
